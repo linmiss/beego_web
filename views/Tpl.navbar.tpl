@@ -1,5 +1,5 @@
 {{define "navbar"}}
-<ul class="nav nav-tabs">
+<ul class="nav nav-tabs" style="margin: 10px">
   <li role="presentation" {{if .IsHome}}class="active"{{end}}><a href="/">首页</a></li>
   <li role="presentation" {{if .IsCategory}}class="active"{{end}}><a href="/category">分类</a></li>
   <li role="presentation" {{if .IsTopic}}class="active"{{end}}><a href="/topic">文章</a></li>
